@@ -1,0 +1,25 @@
+{
+  "name": "angluar_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "prestart": "coffee -c ./gulp gulpfile.coffee",
+    "start": "gulp"
+  },
+  "author": "luyang",
+  "license": "ISC",
+  "dependencies": {
+    "coffee-script": "^1.12.2",
+    "fs-extra": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "gulp-inject": "^4.2.0",
+    "gulp-load-plugins": "^1.4.0",
+    "main-bower-files": "^2.13.1"
+  }
+}
